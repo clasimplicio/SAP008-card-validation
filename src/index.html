@@ -12,14 +12,47 @@
     </header>
     
     <main>
-
-      <fieldset>
-        <p>SEU CARTÃO</p>
-        <input type="text" name="number" id="card"> 
-      </fieldset>
+      <form>
+        <div class="total">
+          <p>NÚMERO DO CARTÃO</p>
+          <input class="input" maxlength="16" type="text" name="number" id="card" required><br>
+        </div>
+        
+        <div class="total">
+          <p>NOME IMPRESSO NO CARTÃO</p>
+          <input class="input" type="text" name="name" id="name"><br>
+        </div>
+        
+        <div class="total">
+          <div class="lado">
+            <p>VALIDADE MÊS</p>
+            <input class="fila" type="text" name="mes">
+          </div>
+          
+          <div class="lado">
+            <p>VALIDADE ANO</p>
+            <input class="fila" type="text" name="ano">
+          </div>
+          
+          <div class="lado">
+            <p>CVV</p>
+            <input class="fila" type="text" name="cvv" id="cvv"><br>
+          </div>
+        </div>
+        
+        <div class="total">
+          <input class="button" type="submit" value="Validar" id="ok"><br>
+        </div>
+        
+        <div class="total">
+          <input class="button" type="submit" value="Mascarar" id="mascara">
+        </div>
+      </form>
       
-      <input type="submit" value="Validar" id="ok">
-      <input type="submit" value="Mascarar" id="mascara">
+
+     
+
+  
       
       
       
