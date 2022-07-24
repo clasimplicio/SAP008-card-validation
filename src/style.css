@@ -49,6 +49,7 @@ p{
 }
 
 
+
 /* footer{
     cor de fundo
     background-color: black;
@@ -75,11 +76,14 @@ p{
     border-radius: 5px;
     background-color: rgb(4, 128, 150);
     font-weight: bold;
+    cursor: pointer;
     
 }
 
 .button:hover{
-    background-color: rgba(4, 128, 150, 0.384);
+    background-color: rgba(4, 128, 150, 0.123);
+    color: rgb(4, 128, 150);
+
 }
 
 .input{
@@ -90,10 +94,18 @@ p{
     border-radius: 5px;
     margin-left: 0;
     margin-right: 0;
+    color: gray;
+    text-transform: uppercase;
+    
+}
+
+
+.input:focus{
+    background-color: rgba(4, 128, 150, 0.123);
 }
 
 .input:hover{
-    background-color: rgba(4, 128, 150, 0.384);
+    background-color: rgba(4, 128, 150, 0.123);
 }
 
 .total{
@@ -108,7 +120,7 @@ p{
     float: left;
     margin-top: 10px;
     margin-bottom: 20px;
-   
+     
 }
 
 .ano{
