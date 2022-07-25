@@ -1,33 +1,27 @@
 import validator from './validator.js';
 
-//--------------ADICIONANDO EVENTO AO BOTÃO VALIDAR-----------------
 let creditCardNumber;
 document.getElementById("ok").addEventListener("click",pegar);
 
-//--------------FUNÇÃO DO BOTÃO VALIDAR---------------------------------
 function pegar() {
-    //-------------------RECEBE O Q FOI DIGITADO NO INPUT---------------
     creditCardNumber = document.getElementById("card").value;
+    let typeNumberCreditCardNumber = Number(creditCardNumber);
     if(creditCardNumber!=""){  
-        //-----------CHAMANDO O MÉTODO DA OBJETO VALIDATOR---------------------
-        let valid = validator.isValid(creditCardNumber);
-        //-------------------------VERIFICANDO A VALIDAÇÃO COM O RETURNO NA VARIÁVEL VALID-----------------------
-        if(valid==true){
-            alert("CARTÃO VÁLIDO")
+        if(isNaN(typeNumberCreditCardNumber)){
+            alert("Digite apenas números em \"NÚMERO DO CARTÃO\" ");
         }else{
-            alert("CARTÃO INVÁLIDO")
+            let valid = validator.isValid(creditCardNumber);
+            if(valid==true){
+                alert("CARTÃO VÁLIDO")
+            }else{
+                alert("CARTÃO INVÁLIDO")
+            }
         }
     }
 }
-
-//-----------------------ADICIONANDO EVENTO AO BOTÃO MASCARAR-------------------------------
 document.getElementById("mascara").addEventListener("click",camuflar);
-//------------------FUNÇÃO DO BOTÃO MASCARAR----------------------
 function camuflar(){
-    //--------------RECEBE O QUE FOI DIGITADO NO INPUT--------------------
     creditCardNumber = document.getElementById("card").value;
-    //---------------------------CHAMA O METODO DO OBJETO VALIDATOR--------------------
-    validator.maskify(creditCardNumber);
+    alert(validator.maskify(creditCardNumber));
 }
-
 console.log(validator);
