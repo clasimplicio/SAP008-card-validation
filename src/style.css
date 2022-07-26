@@ -47,10 +47,21 @@ p{
 
 
 
-/* footer{
-    cor de fundo
-    background-color: black;
-} */
+footer{
+    background-color: white;
+    margin-bottom: 0;
+    margin-top: 60px;
+    
+}
+
+a, #rodapé{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(125, 125, 126);
+    font-size: 12px;
+    font-weight: lighter;
+
+}
 
 .logo{
     float: left;
