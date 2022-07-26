@@ -1,0 +1,146 @@
+.cabeçalho{
+    background-color: white;
+    width: 100%;
+    height: 30%;
+    margin: 0 0 5% 0;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    text-align: left;
+    font-family: sans-serif;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-weight: bold;
+    color: rgb(96, 3, 184);
+}
+body{
+    background-color: rgb(241, 241, 241);
+    padding: 0;
+}
+
+form{
+    background-color: white;
+    border-radius: 10px;
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 5px gray;
+    color: gray;
+    
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 8px;
+    margin: 2px;
+    color: rgb(125, 125, 126);
+}
+
+
+
+footer{
+    background-color: rgb(241, 241, 241);
+    margin-bottom: 0;
+    margin-top: 60px;
+    
+}
+
+a, #rodapé{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(125, 125, 126);
+    font-size: 12px;
+    font-weight: lighter;
+
+}
+
+.logo{
+    float: left;
+    border-radius: 50%;
+    margin-left: 27%;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+.titulo{
+    border: solid 2px white;
+    
+}
+.button{
+    font-family: sans-serif;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(4, 128, 150);
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.button:hover{
+    background-color: rgba(4, 128, 150, 0.123);
+    color: rgb(4, 128, 150);
+
+}
+
+.input{
+    font-family: sans-serif;
+    width: 99%;
+    height: 30px;
+    border: solid 1px rgb(222, 222, 228);
+    border-radius: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    color: gray;
+    text-transform: uppercase;
+    
+}
+
+
+.input:focus{
+    background-color: rgba(4, 128, 150, 0.123);
+}
+
+.input:hover{
+    background-color: rgba(4, 128, 150, 0.123);
+}
+
+.total{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.mes{
+    width:  30%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+     
+}
+
+.ano{
+    width:  30%;
+    float: left;
+    margin: 10px 20px 20px 20px;
+   
+}
+
+.cvv{
+    width:  30%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+}

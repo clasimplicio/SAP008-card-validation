@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <div class="cabeçalho">
+        <div class="logo">
+          <img src="\imagens\cabeçalho.png">
+        </div>
+        <div class="titulo">
+          <h1>Validar Cartão de Crédito</h1>
+        </div>
+      </div>
+    </header>
+    
+    <main>
+      <form>
+        
+        <div class="total">
+          <p>NÚMERO DO CARTÃO</p>
+          <input class="input" maxlength="16" type="text" name="number" id="card" required>
+        </div>
+
+        <div class="total">
+          <p>NOME IMPRESSO NO CARTÃO</p>
+          <input class="input" type="text" name="name" id="name"><br>
+        </div>
+           
+        <div class="mes">
+          <p>VALIDADE MÊS</p>
+          <input class="input" placeholder="mm" maxlength="2" type="text" name="mes">
+        </div>
+
+        <div class="ano">
+          <p>VALIDADE ANO</p>
+          <input class="input" placeholder="aa" maxlength="2" type="text" name="ano">
+        </div>
+        
+        <div class="cvv">
+          <p>CVV</p>
+          <input class="input" maxlength="3" type="text" name="cvv"><br>
+        </div>
+
+        <div class="total">
+          <input class="button" type="submit" value="VALIDAR" id="ok"><br>
+        </div>
+        
+        <div class="total">
+          <input class="button" type="submit" value="MASCARAR" id="mascara">
+        </div>
+      </form>
+            
+    </main>
+   
+    <footer>
+      <p id="rodapé">App desenvolvido por <a href="mailto:clasimplicio@hotmail.com">Clarissa Simplício </a></p>  
+    </footer>
+  </body>
+</html>
