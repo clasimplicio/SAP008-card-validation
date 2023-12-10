@@ -10,6 +10,8 @@
 
 ***
 
+ teste de commit
+ 
 ## 1. Resumo
 
 [Aplicativo web](https://clasimplicio.github.io/SAP008-card-validation/) desenvolvido para uso de loja online que utilize pagamento via cartão de crédito. Pensado para priorizar a linguagem direta e simples que o recurso pede, mas sem deixar de lado detalhes ao layout que fazem toda diferença na apresentação.
